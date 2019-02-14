@@ -10,59 +10,15 @@ import Foundation
 
 print("Hello, World!")
 
-class Person {
-    var pid: Int = 0
-    var firstname: String!  // optional wrapping
-    var  lastname: String?  // may contain nil or may contain a value
-    
-    
-    func SetData()
-    {
-        firstname = "Jagmeet"
-        lastname = "kaur"
-    }
-    
-    func display()
-    {
-    print(pid)
-        print(firstname)
-        print(lastname)
-        
-    }
-}
 
+// Person objects
 var p1 = Person()
 p1.display()
 p1.SetData()
 
 
 
-class Student {
-    var sid: Int
-    var firstname: String!  // optional wrapping
-    var  lastname: String?  // may contain nil or may contain a value
-    
-    init() {
-        sid = 0
-        firstname = String()
-        lastname = String()
-    }
-    
-    init(sid: Int, firstname: String, lastname: String)
-    {
-        self.sid = sid
-        self.firstname = firstname
-        self.lastname = lastname
-    }
-    
-    func display()
-    {
-        print("Student id: \(self.sid)")
-        print(" Firstname: \(self.firstname)")
-        print("Lastname: \(self.lastname)")
-    }
-}
-
+// Student objects
 var s1 = Student()
 s1.display()
 
@@ -83,6 +39,56 @@ for s in studentArray
 
 
 
+var c1 = Car()
 
 
+c1.vin = "2yfhjjh7"
+c1.model = "Toyota"
+c1.color = .Black
+c1.speed = 56666
 
+c1.display()
+
+
+//------------Structure
+
+print("Structure Example")
+struct Employee{
+    var eid: Int
+    var enm: String
+    var salary: Float
+    
+    init() {
+        self.eid = -1
+        self.enm = String()
+        self.salary = 0.0
+    }
+    
+    func display()
+    {
+        print(self.eid)
+        print(self.enm)
+        print(self.salary)
+        
+    }
+    
+    mutating func setName(name: String)
+    {
+        self.enm = name
+    }
+}
+
+//var e1 = Employee(eid: 1, enm: "Ria", salary: 1200 )
+//e1.display()
+
+var i = 100
+var a: Int
+
+a=i
+a = 200
+print(i, a)
+
+
+var e2 = e1
+e2.eid = 200
+e2.display()

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9B8B0B562214DB8C00B3432A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B0B552214DB8C00B3432A /* main.swift */; };
+		9B8B0B5D2214E84800B3432A /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B0B5C2214E84800B3432A /* Student.swift */; };
+		9B8B0B5F2214E8EF00B3432A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B0B5E2214E8EF00B3432A /* Person.swift */; };
+		9B8B0B612214E9CD00B3432A /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8B0B602214E9CD00B3432A /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		9B8B0B522214DB8C00B3432A /* ClassAndStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClassAndStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B8B0B552214DB8C00B3432A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B8B0B5C2214E84800B3432A /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9B8B0B5E2214E8EF00B3432A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9B8B0B602214E9CD00B3432A /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				9B8B0B552214DB8C00B3432A /* main.swift */,
+				9B8B0B5C2214E84800B3432A /* Student.swift */,
+				9B8B0B5E2214E8EF00B3432A /* Person.swift */,
+				9B8B0B602214E9CD00B3432A /* Car.swift */,
 			);
 			path = ClassAndStructure;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8B0B5F2214E8EF00B3432A /* Person.swift in Sources */,
 				9B8B0B562214DB8C00B3432A /* main.swift in Sources */,
+				9B8B0B612214E9CD00B3432A /* Car.swift in Sources */,
+				9B8B0B5D2214E84800B3432A /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
